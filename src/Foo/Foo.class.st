@@ -9,7 +9,7 @@ Class {
 
 { #category : #accessing }
 Foo >> ping [ 
-	" notre getter "
+	"  "
 	^ ping
 ]
 
@@ -22,6 +22,6 @@ Foo >> ping: aBlock [
 
 { #category : #accessing }
 Foo >> pong [ 
-	" notre getter "
-	^ self ping: [ ^ 3 ]
+	"  "
+	^ self ping: [ 3 ]
 ]
